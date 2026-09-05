@@ -30,7 +30,7 @@ while Continuar == "Sim":
     print(f"Nome: {Candidato3['Nome']} - Numero: {Candidato3['Numero']}\n")
 
     # Solicitação - eleitor escolhe o número do candidato
-    Voto = int(input("Agora digite o numero do seu candidato:\n"))
+    Voto = int(input("Digite o numero do seu candidato:\n"))
 
     if Voto == Candidato1["Numero"]:
         Candidato1["Votos"] += 1
